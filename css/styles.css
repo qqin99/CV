@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 40px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #184d47;
   font-size: 5.62rem;  /*100%=16px=1em if em/percentage is set up in the body then it gets inherited down*/
@@ -42,11 +42,19 @@ p{
 }
 
 .skill-row{
-  width: 50%;
+  width: 60%;
   margin: 100px auto 175px auto;
   text-align: left;
 
 }
+
+.projects-row{
+  width: 60%;
+  margin: 100px auto 175px auto;
+  text-align: left;
+
+}
+
 .bottom-container{
   background-color:#bdd2b6;
   padding: 50px 0 20px;
@@ -56,28 +64,32 @@ p{
 
 .cloud1 {
   position: absolute;
-  right: 300px;
+  right: 250px;
   top: 40px;
 }
 
 .cloud2 {
   position: absolute;
-  left: 300px;
-  bottom: 150px;
+  left: 250px;
+  bottom: 200px;
 }
 
 
 .data {
   color: red;
 }
+
 .mountain{
-  width:10%;
+  width:20%;
+  margin: 0 auto 0 auto;
 }
+
 .profile-pic{
   width: 12.5%;
   margin: 0 auto 0 auto;
   /*despide only 70% it will still be centered*/
 }
+
 .intro{
   width:30%;
   margin: auto;
@@ -97,6 +109,24 @@ p{
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+
+.project-pic{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.project-pic2{
+  /* border-radius: 50%; */
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.project-pic3{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
 }
 
 hr {
