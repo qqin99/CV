@@ -1,3 +1,3 @@
 # cv
-personal website
+Personal Website 
 https://qqin99.github.io/CV/
